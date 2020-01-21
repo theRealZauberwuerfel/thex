@@ -1,0 +1,33 @@
+* Description
+  This project should be a terminal based version to play John Nashs game `Hex`.
+  We use the power of Haskell to make good abstractions.
+
+* List of things
+  This could be a bit of our board.
+    _   _
+   / \ / \
+  | o | x |
+ / \_/ \_/
+| o | x |
+ \_/ \_/
+
+** TODO Generate the board. [0/4] [0%]
+    - [ ] Generic function for a line.
+    - [ ] Pure functions for
+      - [ ] topLine
+      - [ ] pipeLines
+      - [ ] bottomLine
+      - [ ] 
+    - [ ] IO functions
+      - [ ] Name as the pure functions, but with prefix `draw`.
+    - [ ] Get the chars and numbers on the sides right.
+** TODO Make it safe.
+    - [ ] Hide everything which isn't important for `main`.
+    - [ ] Check for ranges.
+** TODO Test the code. [0/2] [0%]
+    - [ ] Fire up GHCi.
+    - [ ] Write simple unit tests.
+** TODO Make the view nicer.
+    - [ ] Search which ncurses lib is appropriate.
+    - [ ] Implement.
+
